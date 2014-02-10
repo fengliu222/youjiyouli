@@ -1,0 +1,72 @@
+@imgUrl : "../img";
+
+// Reset
+body,div,span,a,p,h1,h2,h3,ul,li,dd,dt,table,tr,td,th{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body{
+	background: #eaeaea;
+	text-align: center; // For ie6 center
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+// Common
+.to_be_center(){
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.to_be_float_left(){
+	float: left;
+	_display:inline;
+}
+.to_be_float_right(){
+	float: right;
+	_display:inline;
+}
+
+.clear{
+	width: 100%;
+	height: 1px;
+	display: block;
+	visibility: hidden;
+	clear: both;
+
+}
+
+.weibo{
+	  width: 89px;
+	  height: 26px;
+	  background: url("../img/weibo.png") no-repeat;
+	  cursor: pointer;
+	  position: absolute;
+	  right: 50px;
+	  bottom: 33px;
+}
+#content{
+	width: 950px;
+	.to_be_center;
+
+	#titleWhite{
+		height: 112px;
+		line-height: 112px;
+		background: white;
+		position: relative;
+		font-family: "微软雅黑";
+
+		h2{
+			font-size: 30px;
+	  		color: black;
+		}
+	}
+}

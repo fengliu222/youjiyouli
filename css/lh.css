@@ -1,0 +1,52 @@
+.lhlist {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.lhlist .lhtitle {
+  width: 100%;
+  height: 34px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #afafaf;
+}
+.lhlist .lhtitle .titlename,
+.lhlist .lhtitle .more {
+  float: left;
+  _display: inline;
+}
+.lhlist .lhtitle .titlename {
+  width: 90%;
+  color: #126335;
+  line-height: 34px;
+  text-align: left;
+}
+.lhlist .lhtitle .more {
+  width: 10%;
+  height: 23px;
+  line-height: 23px;
+  font-size: 14px;
+  color: white;
+  background: #126335;
+  margin-top: 5px;
+}
+.lhlist .lhcontent {
+  width: 100%;
+  overflow: hidden;
+  margin-left: -15px;
+}
+.lhlist .lhcontent .lhitem {
+  width: 222px;
+  height: 223px;
+  background: white;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  zoom: 1;
+  float: left;
+  _display: inline;
+}
+.lhlist .lhcontent .lhitem .lhlink {
+  height: 25px;
+}
+.lhlist .lhcontent .lhitem .lhlink a {
+  color: black;
+}
