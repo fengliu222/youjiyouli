@@ -1,0 +1,392 @@
+body,
+div,
+span,
+a,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+dd,
+dt,
+table,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eaeaea;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+.clear {
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.col8,
+.col4 {
+  margin-left: 13px;
+  float: left;
+  _display: inline;
+}
+.col8 {
+  width: 461px;
+}
+.col4 {
+  width: 224px;
+}
+#header {
+  width: 100%;
+  height: 88px;
+  background: url("../img/navbac.jpg") repeat-x;
+  overflow: hidden;
+}
+#header .nav {
+  width: 950px;
+  height: 88px;
+  text-align: left;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header .nav .logo {
+  width: 83px;
+  height: 77px;
+  background: url("../img/logo.jpg") no-repeat;
+  margin: 5px 0 0 0;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu {
+  width: 427px;
+  height: 35px;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu ul {
+  height: 38px;
+  margin-top: 50px;
+}
+#header .nav .menu ul li {
+  margin-left: 36px;
+  float: left;
+  _display: inline;
+  list-style: none;
+}
+#header .nav .menu ul li a {
+  _width: 32px;
+  height: 38px;
+  display: block;
+}
+#header .nav .menu ul li a:hover {
+  color: #126335;
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .menu ul li .menu_cur {
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .tip {
+  width: 146px;
+  height: 88px;
+  float: right;
+  _display: inline;
+}
+#header .nav .tip span {
+  display: inline-block;
+}
+#header .nav .tip .cart {
+  width: 31px;
+  height: 27px;
+  margin-top: 50px;
+  cursor: pointer;
+  background: url("../img/cart.jpg");
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a,
+#header .nav .tip .login a {
+  width: 56px;
+  height: 87px;
+  line-height: 130px;
+  text-align: center;
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a:hover,
+#header .nav .tip .login a:hover {
+  background: #126335;
+}
+#smallnav {
+  width: 950px;
+  margin: 30px auto -20px;
+  font-size: 14px;
+  text-align: left;
+}
+#smallnav a {
+  color: black;
+  font-weight: bold;
+}
+#main #content {
+  width: 950px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  width: 100%;
+  height: 355px;
+  margin-top: 37px;
+  background: url("../img/footerbg.jpg") no-repeat;
+  overflow: hidden;
+}
+#footer .footerContent {
+  width: 950px;
+  height: 335px;
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer .footerContent #about {
+  width: 83px;
+  height: 100%;
+}
+#footer .footerContent #goodMenu {
+  width: 743px;
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 19px;
+  overflow: hidden;
+}
+#footer .footerContent #goodMenu .footerList {
+  margin-left: -3px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn {
+  width: 90px;
+  margin-left: 3px;
+  float: left;
+  _display: inline;
+}
+#footer .footerContent #goodMenu .footerList .listColumn h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #dfd5ce;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul {
+  margin-top: 10px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul li {
+  font-size: 15px;
+}
+#footer .footerContent #goodMenu .columnTip {
+  font-size: 12px;
+  color: #bfa17a;
+  margin-top: 20px;
+  _margin-top: -10px;
+}
+#footer .footerContent #article {
+  padding: 0 0 0 19px;
+}
+#footer .footerContent .footerTop {
+  width: 100%;
+  height: 218px;
+  text-align: left;
+}
+#footer .footerContent .footerColumn {
+  float: left;
+  _display: inline;
+}
+#footer .footerContent .footerColumn a {
+  color: #dfd5ce;
+}
+#footer .footerContent .footerColumn .footerTitle {
+  color: #bda274;
+  font-weight: bold;
+}
+#footer .footerContent .footerColumn .footerList {
+  margin-top: 7px;
+  line-height: 28px;
+}
+#footer .footerContent .footerBottom {
+  margin-top: 17px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+#footer .footerContent .footerBottom p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #f9f1ec;
+  text-align: left;
+}
+.title {
+  width: 100%;
+  height: 63px;
+  line-height: 63px;
+  color: white;
+  text-align: center;
+  margin-top: 37px;
+}
+.title h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.scrollTop {
+  width: 16px;
+  height: 91px;
+  background: url("../img/scrollTop.png");
+  position: fixed;
+  bottom: 50px;
+  right: 320px;
+  _position: absolute;
+  cursor: pointer;
+}
+#titleGreen {
+  background: #136235;
+}
+#titleWhite {
+  height: 112px;
+  line-height: 112px;
+  background: white;
+  position: relative;
+  font-family: "微软雅黑";
+}
+#titleWhite h2 {
+  font-size: 30px;
+  color: black;
+}
+#titleWhite .weibo {
+  width: 89px;
+  height: 26px;
+  background: url("../img/weibo.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 33px;
+}
+.facIntro {
+  width: 100%;
+  height: 275px;
+  background: white;
+  font-family: "微软雅黑";
+}
+.facIntro .facPic {
+  margin-top: 36px;
+  margin-left: 45px;
+  float: left;
+  _display: inline;
+}
+.facIntro .facPic a {
+  text-decoration: none;
+  border: 0;
+}
+.facIntro .facPic a img {
+  border: 0;
+  width: 300px;
+  height: 200px;
+}
+.facIntro .facInfo {
+  width: 550px;
+  margin-left: 50px;
+  text-align: left;
+  float: left;
+  _display: inline;
+}
+.facIntro .facInfo .facTitle {
+  width: 415px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #ff6600;
+}
+.facIntro .facInfo .facinfotable {
+  color: #6a6a6a;
+  font-size: 14px;
+}
+.facIntro .facInfo .facinfotable span {
+  color: black;
+}
+.facmaster {
+  width: 100%;
+  height: 169px;
+  background: #f7f7f7;
+}
+.facmaster .masterpic {
+  margin-top: 22px;
+  margin-left: 45px;
+  float: left;
+  _display: inline;
+}
+.facmaster .masterpic img {
+  width: 120px;
+  height: 121px;
+}
+.facmaster .masterIntro {
+  width: 718px;
+  margin-left: 20px;
+  text-align: left;
+  font-family: "微软雅黑";
+  float: left;
+  _display: inline;
+}
+.facmaster .masterIntro .masterTitle {
+  width: 415px;
+  margin-top: 48px;
+  margin-bottom: 17px;
+  font-size: 14px;
+  color: block;
+}
+.facmaster .masterIntro .masterTitle h3 {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.facmaster .masterIntro .masterinfo {
+  font-size: 14px;
+  text-indent: 2em;
+}
+.facPiclist {
+  width: 100%;
+  background: white;
+  font-family: "微软雅黑";
+}
+.facPiclist .facPicWrap {
+  margin-left: -10px;
+  position: relative;
+  zoom: 1;
+}
+.facPiclist .facPicWrap .facPicItem {
+  width: 310px;
+  margin-top: 69px;
+  margin-left: 10px;
+  float: left;
+  _display: inline;
+}
+.facPiclist .facPicWrap .facPicItem .fpiPic {
+  margin-bottom: 55px;
+}
+.facPiclist .facPicWrap .facPicItem .fpiPic img {
+  width: 306px;
+}
+.facPiclist .facPicWrap .facPicItem .fpiIntro {
+  height: 85px;
+  background: #2e2e2e;
+  overflow: hidden;
+}
+.facPiclist .facPicWrap .facPicItem .fpiIntro p {
+  width: 280px;
+  font-size: 14px;
+  margin: 25px auto 0;
+  color: white;
+}

@@ -32,11 +32,21 @@ ul {
   list-style: none;
 }
 .clear {
-  width: 100%;
-  height: 1px;
   display: block;
   visibility: hidden;
   clear: both;
+}
+.col8,
+.col4 {
+  margin-left: 13px;
+  float: left;
+  _display: inline;
+}
+.col8 {
+  width: 461px;
+}
+.col4 {
+  width: 224px;
 }
 #header {
   width: 100%;
@@ -85,6 +95,9 @@ ul {
   color: #126335;
   background: url("../img/navtip.png") no-repeat 50% 31px;
 }
+#header .nav .menu ul li .menu_cur {
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
 #header .nav .tip {
   width: 146px;
   height: 88px;
@@ -115,6 +128,22 @@ ul {
 #header .nav .tip .signUp a:hover,
 #header .nav .tip .login a:hover {
   background: #126335;
+}
+#smallnav {
+  width: 950px;
+  margin: 30px auto -20px;
+  font-size: 14px;
+  text-align: left;
+}
+#smallnav a {
+  color: black;
+  font-weight: bold;
+}
+#main #content {
+  width: 950px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 #footer {
   width: 100%;
@@ -220,28 +249,25 @@ ul {
   background: url("../img/scrollTop.png");
   position: fixed;
   bottom: 50px;
-  right: 130px;
+  right: 320px;
   _position: absolute;
   cursor: pointer;
 }
-#main #content {
-  width: 950px;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+#titleGreen {
+  background: #136235;
 }
-#main #content #titleWhite {
+#titleWhite {
   height: 112px;
   line-height: 112px;
   background: white;
   position: relative;
   font-family: "微软雅黑";
 }
-#main #content #titleWhite h2 {
+#titleWhite h2 {
   font-size: 30px;
   color: black;
 }
-#main #content #titleWhite .weibo {
+#titleWhite .weibo {
   width: 89px;
   height: 26px;
   background: url("../img/weibo.png") no-repeat;
@@ -250,12 +276,12 @@ ul {
   right: 50px;
   bottom: 33px;
 }
-#main #content #boxIntro {
+#boxIntro {
   position: relative;
   zoom: 1;
   margin: 28px 0 0 -30px;
 }
-#main #content #boxIntro .introItem {
+#boxIntro .introItem {
   width: 459px;
   margin-bottom: 24px;
   margin-left: 30px;
@@ -263,43 +289,43 @@ ul {
   float: left;
   _display: inline;
 }
-#main #content #boxIntro .introItem .itemContent {
+#boxIntro .introItem .itemContent {
   width: 100%;
   height: 80px;
   color: black;
   overflow: hidden;
 }
-#main #content #boxIntro .introItem .itemContent .itemIcon {
+#boxIntro .introItem .itemContent .itemIcon {
   margin: 8px 13px 0 19px;
   float: left;
   _display: inline;
 }
-#main #content #boxIntro .introItem .itemContent table {
+#boxIntro .introItem .itemContent table {
   margin-top: 8px;
   text-align: left;
 }
-#main #content #boxIntro .introItem .itemContent table .itemTitle a {
+#boxIntro .introItem .itemContent table .itemTitle a {
   color: black;
   width: 50%;
   font-size: 16px;
   line-height: 24px;
 }
-#main #content #boxIntro .introItem .itemContent table .itemPrice {
+#boxIntro .introItem .itemContent table .itemPrice {
   width: 50%;
   color: #47a700;
   margin-left: 15px;
 }
-#main #content #boxIntro .introItem .itemContent table .itemDesc {
+#boxIntro .introItem .itemContent table .itemDesc {
   line-height: 18px;
   color: #787878;
   font-size: 12px;
 }
-#main #content #boxlist {
+#boxlist {
   position: relative;
   zoom: 1;
   margin: 0 0 0 -10px;
 }
-#main #content #boxlist .listItem {
+#boxlist .listItem {
   width: 230px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -307,22 +333,19 @@ ul {
   float: left;
   _display: inline;
 }
-#main #content #boxlist .listItem .listContent {
+#boxlist .listItem .listContent {
   width: 100%;
   height: 44px;
   overflow: hidden;
   text-align: left;
   padding-left: 10px;
 }
-#main #content #boxlist .listItem .listContent .listTitle a,
-#main #content #boxlist .listItem .listContent .listPrice {
+#boxlist .listItem .listContent .listTitle a,
+#boxlist .listItem .listContent .listPrice {
   color: black;
   font-size: 14px;
   line-height: 20px;
 }
-#main #content #boxlist .listItem .listContent .listPrice {
+#boxlist .listItem .listContent .listPrice {
   color: #47a700;
-}
-#main #content #titleGreen {
-  background: #136235;
 }

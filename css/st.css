@@ -1,0 +1,210 @@
+/**
+ * reset
+ */
+body,
+nav,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+input,
+button,
+textarea,
+footer {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 16px/1.5 'Microsoft Yahei', 'Simsun';
+  color: #333;
+  background: #fff;
+  -webkit-text-size-adjust: none;
+  min-width: 320px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+form {
+  display: inline;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #1c5aa2;
+  text-decoration: none;
+}
+a:active {
+  color: #aaa;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+}
+input:focus:-moz-placeholder,
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.break {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+header,
+footer,
+article,
+section,
+nav,
+menu,
+hgroup {
+  display: block;
+  clear: all;
+}
+/**
+ * shise
+ */
+.clear {
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+body {
+  background: #f5f5f5;
+}
+#main {
+  width: 640px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+#main .logo {
+  width: 100%;
+  height: 60px;
+  background: #60bfc3;
+  line-height: 60px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin-top: 85px;
+  margin-bottom: 104px;
+}
+#main .banner {
+  width: 615px;
+  margin: 0 auto;
+}
+#main .banner .banneritem {
+  width: 615px;
+  height: 340px;
+  position: relative;
+}
+#main .banner .banneritem .bannerimg {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+#main .banner .banneritem .bannerword {
+  width: 614px;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+#main .banner .banneritem .bannerword p {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: white;
+}
+#main .postlist {
+  width: 615px;
+  margin: 55px auto 141px;
+  overflow: hidden;
+}
+#main .postlist .posttitle {
+  font-size: 20px;
+  color: #787878;
+  margin-bottom: 12px;
+}
+#main .postlist .postitems {
+  margin-left: -10px;
+}
+#main .postlist .postitems li {
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+}
+#main .postlist .postitems a {
+  display: block;
+}
+#main .postlist .postitems .itemtitle {
+  color: #4f4f4f;
+}
+#main .postlist .postitems .itemfrom {
+  color: #9b9b9b;
+}

@@ -1,0 +1,389 @@
+body,
+div,
+span,
+a,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+dd,
+dt,
+table,
+tr,
+td,
+th {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eaeaea;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+.clear {
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.col8,
+.col4 {
+  margin-left: 13px;
+  float: left;
+  _display: inline;
+}
+.col8 {
+  width: 461px;
+}
+.col4 {
+  width: 224px;
+}
+#header {
+  width: 100%;
+  height: 88px;
+  background: url("../img/navbac.jpg") repeat-x;
+  overflow: hidden;
+}
+#header .nav {
+  width: 950px;
+  height: 88px;
+  text-align: left;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header .nav .logo {
+  width: 83px;
+  height: 77px;
+  background: url("../img/logo.jpg") no-repeat;
+  margin: 5px 0 0 0;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu {
+  width: 427px;
+  height: 35px;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu ul {
+  height: 38px;
+  margin-top: 50px;
+}
+#header .nav .menu ul li {
+  margin-left: 36px;
+  float: left;
+  _display: inline;
+  list-style: none;
+}
+#header .nav .menu ul li a {
+  _width: 32px;
+  height: 38px;
+  display: block;
+}
+#header .nav .menu ul li a:hover {
+  color: #126335;
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .menu ul li .menu_cur {
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .tip {
+  width: 146px;
+  height: 88px;
+  float: right;
+  _display: inline;
+}
+#header .nav .tip span {
+  display: inline-block;
+}
+#header .nav .tip .cart {
+  width: 31px;
+  height: 27px;
+  margin-top: 50px;
+  cursor: pointer;
+  background: url("../img/cart.jpg");
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a,
+#header .nav .tip .login a {
+  width: 56px;
+  height: 87px;
+  line-height: 130px;
+  text-align: center;
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a:hover,
+#header .nav .tip .login a:hover {
+  background: #126335;
+}
+#smallnav {
+  width: 950px;
+  margin: 30px auto -20px;
+  font-size: 14px;
+  text-align: left;
+}
+#smallnav a {
+  color: black;
+  font-weight: bold;
+}
+#main #content {
+  width: 950px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  width: 100%;
+  height: 355px;
+  margin-top: 37px;
+  background: url("../img/footerbg.jpg") no-repeat;
+  overflow: hidden;
+}
+#footer .footerContent {
+  width: 950px;
+  height: 335px;
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer .footerContent #about {
+  width: 83px;
+  height: 100%;
+}
+#footer .footerContent #goodMenu {
+  width: 743px;
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 19px;
+  overflow: hidden;
+}
+#footer .footerContent #goodMenu .footerList {
+  margin-left: -3px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn {
+  width: 90px;
+  margin-left: 3px;
+  float: left;
+  _display: inline;
+}
+#footer .footerContent #goodMenu .footerList .listColumn h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #dfd5ce;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul {
+  margin-top: 10px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul li {
+  font-size: 15px;
+}
+#footer .footerContent #goodMenu .columnTip {
+  font-size: 12px;
+  color: #bfa17a;
+  margin-top: 20px;
+  _margin-top: -10px;
+}
+#footer .footerContent #article {
+  padding: 0 0 0 19px;
+}
+#footer .footerContent .footerTop {
+  width: 100%;
+  height: 218px;
+  text-align: left;
+}
+#footer .footerContent .footerColumn {
+  float: left;
+  _display: inline;
+}
+#footer .footerContent .footerColumn a {
+  color: #dfd5ce;
+}
+#footer .footerContent .footerColumn .footerTitle {
+  color: #bda274;
+  font-weight: bold;
+}
+#footer .footerContent .footerColumn .footerList {
+  margin-top: 7px;
+  line-height: 28px;
+}
+#footer .footerContent .footerBottom {
+  margin-top: 17px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+#footer .footerContent .footerBottom p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #f9f1ec;
+  text-align: left;
+}
+.title {
+  width: 100%;
+  height: 63px;
+  line-height: 63px;
+  color: white;
+  text-align: center;
+  margin-top: 37px;
+}
+.title h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.scrollTop {
+  width: 16px;
+  height: 91px;
+  background: url("../img/scrollTop.png");
+  position: fixed;
+  bottom: 50px;
+  right: 320px;
+  _position: absolute;
+  cursor: pointer;
+}
+#titleGreen {
+  background: #136235;
+}
+#titleWhite {
+  height: 112px;
+  line-height: 112px;
+  background: white;
+  position: relative;
+  font-family: "微软雅黑";
+}
+#titleWhite h2 {
+  font-size: 30px;
+  color: black;
+}
+#titleWhite .weibo {
+  width: 89px;
+  height: 26px;
+  background: url("../img/weibo.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 33px;
+}
+#login {
+  width: 950px;
+  margin-top: 30px;
+  background: white;
+  font-family: "微软雅黑";
+  margin-left: auto;
+  margin-right: auto;
+}
+#login a {
+  color: black;
+}
+#login .loginblock {
+  height: 380px;
+  position: relative;
+}
+#login .loginblock .imgleft {
+  width: 481px;
+  float: left;
+  _display: inline;
+}
+#login .loginblock .logininfo {
+  width: 469px;
+  float: left;
+  _display: inline;
+}
+#login .loginblock .logininfo .loginform,
+#login .loginblock .logininfo .oauthlogin {
+  width: 329px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+#login .loginblock .logininfo .loginform .formgroup {
+  margin: 10px 0;
+  position: relative;
+  zoom: 1;
+}
+#login .loginblock .logininfo .loginform .formgroup .formicon {
+  width: 28px;
+  height: 34px;
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+#login .loginblock .logininfo .loginform .formgroup .formicon.id {
+  background: url("../img/idicon.jpg") no-repeat 0 -1px;
+}
+#login .loginblock .logininfo .loginform .formgroup .formicon.pass {
+  background: url("../img/pwicon.jpg") no-repeat;
+}
+#login .loginblock .logininfo .loginform .idinput,
+#login .loginblock .logininfo .loginform .pwinput {
+  height: 62px;
+  position: relative;
+}
+#login .loginblock .logininfo .loginform .idinput label,
+#login .loginblock .logininfo .loginform .pwinput label {
+  width: 100%;
+  color: #797979;
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: block;
+}
+#login .loginblock .logininfo .loginform .idinput input,
+#login .loginblock .logininfo .loginform .pwinput input {
+  width: 100%;
+  height: 34px;
+  line-height: 34px ;
+  border: 2px solid #e7e7e7;
+}
+#login .loginblock .logininfo .loginform .autologin {
+  height: 20px;
+  color: black;
+  font-size: 12px;
+  margin-top: 30px;
+}
+#login .loginblock .logininfo .loginform .autologin input {
+  width: 14px;
+  height: 14px;
+  vertical-align: top;
+}
+#login .loginblock .logininfo .loginform .loginbtn input {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  font-size: 18px;
+  background: #fe0100;
+  border: 0;
+  font-family: "微软雅黑";
+}
+#login .loginblock .oauthlogin {
+  margin-top: 50px;
+  font-size: 12px;
+  color: #7a7a7a;
+}
+#login .loginblock .signup {
+  width: 125px;
+  height: 35px;
+  font-size: 16px;
+  line-height: 35px;
+  color: white;
+  background: #126335;
+  position: absolute;
+  top: 380px;
+  _top: 385px;
+  right: 20px;
+}
+#login .loginblock .signup a {
+  color: white;
+}

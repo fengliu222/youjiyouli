@@ -16,7 +16,6 @@ td,
 th {
   margin: 0;
   padding: 0;
-  font-family: "微软雅黑";
 }
 body {
   background: #eaeaea;
@@ -26,17 +25,249 @@ a {
   color: white;
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
 ul {
   list-style: none;
 }
 .clear {
-  width: 100%;
-  height: 1px;
   display: block;
   visibility: hidden;
   clear: both;
 }
-.weibo {
+.col8,
+.col4 {
+  margin-left: 13px;
+  float: left;
+  _display: inline;
+}
+.col8 {
+  width: 461px;
+}
+.col4 {
+  width: 224px;
+}
+#header {
+  width: 100%;
+  height: 88px;
+  background: url("../img/navbac.jpg") repeat-x;
+  overflow: hidden;
+}
+#header .nav {
+  width: 950px;
+  height: 88px;
+  text-align: left;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header .nav .logo {
+  width: 83px;
+  height: 77px;
+  background: url("../img/logo.jpg") no-repeat;
+  margin: 5px 0 0 0;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu {
+  width: 427px;
+  height: 35px;
+  float: left;
+  _display: inline;
+}
+#header .nav .menu ul {
+  height: 38px;
+  margin-top: 50px;
+}
+#header .nav .menu ul li {
+  margin-left: 36px;
+  float: left;
+  _display: inline;
+  list-style: none;
+}
+#header .nav .menu ul li a {
+  _width: 32px;
+  height: 38px;
+  display: block;
+}
+#header .nav .menu ul li a:hover {
+  color: #126335;
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .menu ul li .menu_cur {
+  background: url("../img/navtip.png") no-repeat 50% 31px;
+}
+#header .nav .tip {
+  width: 146px;
+  height: 88px;
+  float: right;
+  _display: inline;
+}
+#header .nav .tip span {
+  display: inline-block;
+}
+#header .nav .tip .cart {
+  width: 31px;
+  height: 27px;
+  margin-top: 50px;
+  cursor: pointer;
+  background: url("../img/cart.jpg");
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a,
+#header .nav .tip .login a {
+  width: 56px;
+  height: 87px;
+  line-height: 130px;
+  text-align: center;
+  float: left;
+  _display: inline;
+}
+#header .nav .tip .signUp a:hover,
+#header .nav .tip .login a:hover {
+  background: #126335;
+}
+#smallnav {
+  width: 950px;
+  margin: 30px auto -20px;
+  font-size: 14px;
+  text-align: left;
+}
+#smallnav a {
+  color: black;
+  font-weight: bold;
+}
+#main #content {
+  width: 950px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer {
+  width: 100%;
+  height: 355px;
+  margin-top: 37px;
+  background: url("../img/footerbg.jpg") no-repeat;
+  overflow: hidden;
+}
+#footer .footerContent {
+  width: 950px;
+  height: 335px;
+  margin-top: 47px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer .footerContent #about {
+  width: 83px;
+  height: 100%;
+}
+#footer .footerContent #goodMenu {
+  width: 743px;
+  height: 100%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 19px;
+  overflow: hidden;
+}
+#footer .footerContent #goodMenu .footerList {
+  margin-left: -3px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn {
+  width: 90px;
+  margin-left: 3px;
+  float: left;
+  _display: inline;
+}
+#footer .footerContent #goodMenu .footerList .listColumn h3 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #dfd5ce;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul {
+  margin-top: 10px;
+}
+#footer .footerContent #goodMenu .footerList .listColumn ul li {
+  font-size: 15px;
+}
+#footer .footerContent #goodMenu .columnTip {
+  font-size: 12px;
+  color: #bfa17a;
+  margin-top: 20px;
+  _margin-top: -10px;
+}
+#footer .footerContent #article {
+  padding: 0 0 0 19px;
+}
+#footer .footerContent .footerTop {
+  width: 100%;
+  height: 218px;
+  text-align: left;
+}
+#footer .footerContent .footerColumn {
+  float: left;
+  _display: inline;
+}
+#footer .footerContent .footerColumn a {
+  color: #dfd5ce;
+}
+#footer .footerContent .footerColumn .footerTitle {
+  color: #bda274;
+  font-weight: bold;
+}
+#footer .footerContent .footerColumn .footerList {
+  margin-top: 7px;
+  line-height: 28px;
+}
+#footer .footerContent .footerBottom {
+  margin-top: 17px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+#footer .footerContent .footerBottom p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #f9f1ec;
+  text-align: left;
+}
+.title {
+  width: 100%;
+  height: 63px;
+  line-height: 63px;
+  color: white;
+  text-align: center;
+  margin-top: 37px;
+}
+.title h2 {
+  font-weight: normal;
+  font-size: 20px;
+}
+.scrollTop {
+  width: 16px;
+  height: 91px;
+  background: url("../img/scrollTop.png");
+  position: fixed;
+  bottom: 50px;
+  right: 320px;
+  _position: absolute;
+  cursor: pointer;
+}
+#titleGreen {
+  background: #136235;
+}
+#titleWhite {
+  height: 112px;
+  line-height: 112px;
+  background: white;
+  position: relative;
+  font-family: "微软雅黑";
+}
+#titleWhite h2 {
+  font-size: 30px;
+  color: black;
+}
+#titleWhite .weibo {
   width: 89px;
   height: 26px;
   background: url("../img/weibo.png") no-repeat;
@@ -49,15 +280,164 @@ ul {
   width: 950px;
   margin-left: auto;
   margin-right: auto;
+  font-family: "微软雅黑";
 }
 #content #titleWhite {
   height: 112px;
   line-height: 112px;
   background: white;
   position: relative;
-  font-family: "微软雅黑";
 }
 #content #titleWhite h2 {
   font-size: 30px;
   color: black;
+}
+#content .goodsDetial {
+  height: 400px;
+  background: white;
+  text-align: left;
+}
+#content .goodsDetial .showdetail .goodspic {
+  width: 358px;
+  margin: 0 12px;
+  float: left;
+  _display: inline;
+}
+#content .goodsDetial .showdetail .goodsinfo {
+  width: 550px;
+  margin-left: 10px;
+  float: left;
+  _display: inline;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodstitle {
+  font-size: 16px;
+  color: #ff6600;
+  border-bottom: 1px solid #f4f4f4;
+  line-height: 25px;
+  margin-top: 10px;
+  padding-bottom: 25px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsdesc {
+  margin-top: 17px;
+  font-size: 14px;
+  color: #010101;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsprice,
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy,
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns {
+  padding-left: 23px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsprice {
+  margin-top: 28px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsprice .newprice {
+  font-size: 30px;
+  color: #000;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsprice .oldprice {
+  font-size: 14px;
+  color: #757575;
+  text-decoration: line-through;
+  margin: 5px 0;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy {
+  font-size: 14px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy .buyinput {
+  margin: 0 7px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy .buyinput .sub,
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy .buyinput .plus {
+  width: 20px;
+  height: 22px;
+  background: #666;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbuy .buyinput input {
+  width: 57px;
+  height: 20px;
+  margin: 0 -5px 0 -5px;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns {
+  margin-top: 20px;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns .buybtn,
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns .cardbtn {
+  width: 217px;
+  height: 46px;
+  font-size: 27px;
+  color: white;
+  line-height: 46px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns .buybtn {
+  background: #df2626;
+}
+#content .goodsDetial .showdetail .goodsinfo .goodsbtns .cardbtn {
+  margin-left: 33px;
+  background: #ff6600;
+}
+#content .goodslist {
+  margin-top: 8px;
+  position: relative;
+  zoom: 1;
+  background: white;
+  text-align: left;
+  overflow: hidden;
+}
+#content .goodslist .goodsitem {
+  width: 311px;
+  height: 397px;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  float: left;
+  _display: inline;
+}
+#content .goodslist .goodsitem .iteminfo {
+  width: 290px;
+  height: 89px;
+  background: #2e2e2e;
+  color: white;
+  font-size: 14px;
+  margin-top: -8px;
+  overflow: hidden;
+  padding-left: 20px;
+}
+#content .goodslist .goodsitem .iteminfo .itemtitle {
+  color: white;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+}
+#content .goodslist .goodsitem .iteminfo .itempricegreen {
+  font-size: 24px;
+  color: #73af00;
+}
+#content .goodslist .goodsitem .iteminfo .itemoldprice {
+  font-size: 14px;
+  color: #a1a1a1;
+  text-decoration: line-through;
+}
+#content .goodslist .goodsitem .iteminfo .itemggrey {
+  font-size: 14px;
+  color: #a1a1a1;
+}
+#content .goodslist .goodsadd {
+  width: 311px;
+  height: 395px;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: url("../img/add.jpg");
+  float: left;
+  _display: inline;
 }

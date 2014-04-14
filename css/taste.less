@@ -1,0 +1,122 @@
+@import './common.less';
+
+#content{
+	a{color:black;}
+	#goodsmenu{
+		height: 75px;
+		background: white;
+		ul{
+			margin-left: 55px;
+			.goodscat{
+				padding:0 23px;
+				border-left: 2px dashed #dddddd;
+				.to_be_float_left();
+				img{
+
+				}
+				p{
+					font-family: "微软雅黑";
+					font-size: 14px;
+				}
+			}
+			.goodslast{
+				border-right: 2px dashed #dddddd;
+			}
+		}
+	}
+	#taste{
+		position: relative;
+		zoom:1;
+		margin-top: 20px;
+	    .goodshot{
+	    	position: absolute;
+	    }
+		.tgintro{
+		 	 
+			height: 77px;
+			text-align: left;
+			.tgtitle, .tgprice, .tgplace{
+				font-size: 14px;
+				margin-left: 23px;
+			}
+			.tgtitle{
+				font-weight: bold;
+				font-size: 14px;
+				a{
+					color:#5c5c5c;
+				}
+			}
+			.tgprice{
+				height: 20px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				.tgpricenew, .tgpriceold{
+					.to_be_float_left();
+				}
+				.tgpricenew{
+					font-size: 16px;
+					font-weight: bold;
+					color:#52ae01;
+				}
+				.tgpriceold{
+					margin-left: 10px;
+					color:#c5c5c5;
+					text-decoration: line-through;
+				}
+			}
+			.tgplace{
+			 
+				padding-top: 5px;
+				border-top: 1px dashed #a0a0a0;
+				margin-top: 5px;
+			}
+		}
+
+		.tgb, .tgs{
+			width: 100%;
+			position: relative;
+		  	img{
+		  		width: 100%;
+		  	}
+			background: white;
+		}
+		.tgb{
+			height: 570px;
+			img{
+				height: 463px;
+			}
+			.tgplace{
+				width: 90%;
+				display: inline-block;
+			}
+			.tgintro{
+				margin-top: 20px;
+			}
+		}
+
+		.tgs{
+			margin-bottom: 13px;
+			img{
+				height: 198px;
+			}
+			.tgplace{
+				display: inline-block;
+				_display: inline;
+			}
+		}
+
+		.goodshot, .goodsnew{
+			width: 52px;
+			height: 36px;
+			position: absolute;
+			left:-10px;
+			top: 15px;
+		}
+		.goodshot{
+			background: url("@{imgUrl}/hot.png") no-repeat;
+		}
+		.goodsnew{
+			background: url("@{imgUrl}/new.png") no-repeat;
+		}
+	}
+}

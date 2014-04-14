@@ -1,0 +1,251 @@
+@import "./common.less";
+
+#content{
+	font-family: "微软雅黑";
+	a{
+		color:black;
+	}
+	#ordertitle{
+		height: 112px;
+		line-height: 112px;
+		background: white;
+		position: relative;
+		h2{
+			font-size: 16px;
+			font-weight: bold;
+			color:black;
+		}
+	}
+	#ordercontent{
+		@commonMargin: 47px;
+
+		height: 325px;
+		background: white;
+		text-align: left;
+		
+		.ordercount{
+			font-size: 12px;
+			padding-left: 20px;
+			margin-left: @commonMargin;
+
+			.rmbred{
+				font-size: 18px;
+				color:red;
+			}
+			.payway{
+				color: #7c7c7c;
+			}
+		}
+		.orderinfowarp{
+			width: 873px;
+			height: 215px;
+			font-size: 12px;
+			background: #e9e9e9;
+			margin-top: 10px;
+			margin-left: @commonMargin;
+			padding: 2px;
+			.orderinfo{
+				height: 215px;
+				background: #ffffff;
+				border: 2px solid #f3f3f3;
+
+				.orderaddr{
+					width: 852px;
+					height: 51px;
+					line-height: 51px;
+					background: #fcfcfc;
+					margin-left: 10px;
+					border-bottom: 1px solid #e7e7e7;					
+					.addricon{
+						width: 25px;
+						height: 31px;
+						margin-right: 5px;
+						display: inline-block;
+						vertical-align: middle;
+						background: url("@{imgUrl}/addr.png") no-repeat;
+					}
+				}
+
+				.orderleft{
+					width: 570px;
+					margin-top: 10px;
+					margin-left: 46px;
+					.to_be_float_left();
+
+					.mailinfo{
+						.mailsum{
+							color: #7c7c7c;
+						}
+					}
+					.maillist{
+						margin-top: 10px;
+						tr{
+							height: 36px;
+							td{
+								line-height: 36px;
+								padding: 0 15px;
+								border: 1px solid #e7e7e7;
+
+								.mailicon{
+									width: 23px;
+									height: 21px;
+									display: inline-block;
+									vertical-align: middle;
+									background: url("@{imgUrl}/package.png") no-repeat;
+								}
+							}
+						}
+					}
+					.invoice{
+						margin-top: 5px;
+					}
+				}
+				.orderright{
+					width: 217px;
+					text-align: center;
+					margin-top: 10px;
+				 
+					.to_be_float_left();
+					.orderewm{
+						width: 96px;
+						height: 94px;
+						margin: 20px auto 0;
+						background: url("@{imgUrl}/ewm2.png") no-repeat;
+					}
+
+				}
+
+			}	
+		}
+		.ordernum{
+			height: 23px;
+			font-size: 12px;
+			line-height: 23px;
+			margin-top: 33px;
+			margin-left: 27px+@commonMargin;
+
+			a{
+				color:#0d71bf;
+			}
+
+			.ordernumicon{
+				width: 25px;
+				height: 23px;
+				display: inline-block;
+				vertical-align: middle;
+				background: url("@{imgUrl}/order.png") no-repeat;
+			}
+			.checkorder{
+				margin:0 15px;
+			}
+		}
+
+	}
+
+	#orderbanner{
+		height: 386px;
+		position: relative;
+		margin-top: 18px;
+		background: white;
+		img{
+			width: 950px;
+		}
+		.orderup, .orderdown{
+			position: absolute;
+			cursor: pointer;
+		}
+		.orderup{
+			width: 36px;
+			height: 18px;
+			background: url("@{imgUrl}/arrow2.png") no-repeat;
+			left: 50%;
+			top: 5px;
+			
+		}
+		.orderdown{
+			width: 59px;
+			height: 35px;
+			font-size: 14px;
+			left: 50%;
+			bottom: 15px;
+
+			.morebtn{
+				width: 36px;
+				height: 18px;
+				margin: 0 auto;
+				background: url("@{imgUrl}/arrow1.jpg") no-repeat;
+			}
+		}
+	}
+
+	#hotlist{
+		margin-top: 12px;
+		text-align: left;
+		background: #f7f7f7;
+		overflow:hidden;
+
+		.hottitle{
+			margin-left: 15px;
+			height: 40px;
+			line-height: 40px;
+		}
+
+		.tgs{
+			width: 230px;
+			background: white;
+			margin-bottom: 13px;
+			margin-left: 6px;
+			position: relative;
+			.to_be_float_left();
+
+			img{
+				width: 100%;
+				height: 198px;
+			}
+			.tgplace{
+				display: inline-block;
+				_display: inline;
+			}
+		}
+		.tgintro{
+			height: 77px;
+			text-align: left;
+			.tgtitle, .tgprice, .tgplace{
+				font-size: 14px;
+				margin-left: 23px;
+			}
+			.tgtitle{
+				font-weight: bold;
+				font-size: 14px;
+				a{
+					color:#5c5c5c;
+				}
+			}
+			.tgprice{
+				height: 20px;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				.tgpricenew, .tgpriceold{
+					.to_be_float_left();
+				}
+				.tgpricenew{
+					font-size: 16px;
+					font-weight: bold;
+					color:#52ae01;
+				}
+				.tgpriceold{
+					margin-left: 10px;
+					color:#c5c5c5;
+					text-decoration: line-through;
+				}
+			}
+			.tgplace{
+			 
+				padding-top: 5px;
+				border-top: 1px dashed #a0a0a0;
+				margin-top: 5px;
+			}
+		}
+	}
+	
+}
